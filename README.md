@@ -1,2 +1,2 @@
-# js-dev-env
-JavaScript dev environment 
+# JS Dev Env
+A sample for a JavaScript dev environment 
