@@ -14,11 +14,9 @@ getUsers().then(res => {
   });
 
   global.document.getElementById('users').innerHTML = usersBody;
-
   const deleteLinks = global.document.getElementsByClassName('deleteUser');
 
   Array.from(deleteLinks, link => {
-    //debugger; // eslint-disable-line
     link.onclick = function (event) {
       const element = event.target;
       event.preventDefault();
