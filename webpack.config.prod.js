@@ -33,6 +33,7 @@ export default {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       inject: true,
+      trackJSToken: 'YOUR_TOKEN_HERE',
       minify: {
         removeComments: true,
         collapseWhitespace: true,
